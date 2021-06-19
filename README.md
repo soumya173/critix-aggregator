@@ -2,6 +2,10 @@
 A movie review aggregator site, this would collect and aggregate data from different websites and provide a all-in-one place to search for movie reviews
 
 # Initial Plan
+## Sites in consideration
+  - https://www.imdb.com/
+  - https://www.rottentomatoes.com/
+  - https://www.metacritic.com/
 ## Tech Stack:
   - Back end
     + Django (https://www.djangoproject.com/)
@@ -24,5 +28,6 @@ A movie review aggregator site, this would collect and aggregate data from diffe
       + a list of movies to get the information from the configured sites
     + A background process? or trigger? or scheduled task?
       + parse the pre-configured sites for dumping the movie data in the db
+      + Check if we have APIs to collect data instead of web-scrapping
 
 ![critic](https://user-images.githubusercontent.com/31511160/122633737-aba2ba00-d0f7-11eb-8012-3d21823bf2fa.jpg)
