@@ -1,4 +1,5 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
-def index(request):
-    return HttpResponse("This is review page")
+def home(request):
+    context = {}
+    return render(request, 'index.html', context)
