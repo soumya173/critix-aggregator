@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
-def index(request):
+def home(request):
     context = {}
     return render(request, 'index.html', context)
